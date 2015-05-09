@@ -1,0 +1,47 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>
+            © 2015 <a href="http://www.microwise-system.com" target="_blank">元智系统</a>
+          </li>
+          <li>
+            <a href="http://products.microwise-system.com/blogs.html" target="_blank">产品博客</a>
+          </li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <a href="http://weibo.com/u/3175063310">
+              <span class="fa fa-weibo"></span>
+
+              <span class="username">{{ site.weibo_username }}</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <span class="fa fa-wechat"></span>
+
+              <span class="username">{{ site.wechat_username }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <img src="{{ 'images/weixin-qrcode.jpg' | prepend: site.baseurl }}" style="width: 100px; margin-top: -10px; margin-left: 20px;">
+      </div>
+    </div>
+
+  </div>
+
+</footer>
