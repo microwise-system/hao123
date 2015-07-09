@@ -5,29 +5,29 @@ layout: default
 <div class="home">
   <div class="container-fluid">
     <div class="col-md-8">
-      <h1 class="page-heading">在线系统</h1>
+      <h2 class="page-heading">在线系统</h2>
 
       <ul>
         {% for site in site.data.sites %}
         <li>
-          <h4>
+          <h3 style="font-weight: 300; font-size: 18px;">
             <a href="{{ site.url }}" target="_blank">{{ site.name }}</a>
-          </h4>
+          </h3>
         </li>
         {% endfor %}
       </ul>
     </div>
     <div class="col-md-4">
-      <h1 class="page-heading">新闻</h1>
+      <h2 class="page-heading">新闻</h2>
 
       <ul class="post-list">
         {% for post in site.posts %}
         <li>
           <span class="post-meta">{{ post.date | date: "%Y-%-m-%-d" }}</span>
 
-          <h5>
+          <h3 style="font-weight: 300; font-size: 18px;">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h5>
+          </h3>
         </li>
         {% endfor %}
       </ul>
