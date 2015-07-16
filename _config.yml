@@ -2,7 +2,7 @@
 title: 元智网址大全
 email: info@microwise-system.com
 description: > # this means to ignore newlines until "baseurl:"
-  这里列出了元智系统目前在线系统网址。
+  元智网址大全列出了元智系统目前在线系统网址。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://123.smart-museum.cn" # the base hostname & protocol for your site
 wechat_username: microwise_Coltd
